@@ -56,7 +56,6 @@ I specialise in **red team operations** and **offensive security** — simulatin
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [**KAIJU IR Playbooks**](https://github.com/imxde-code/kaiju-ir-playbooks) | 10 CSIRT incident response playbooks — malware, ransomware, APT, DDoS, privilege escalation, and more. Aligned with NIST SP 800-61 and MITRE ATT&CK | Markdown |
 | [**scantodo**](https://github.com/imxde-code/scantodo) | CLI tool to scan codebases for TODO/FIXME/HACK comments — works in CI pipelines | TypeScript |
 
 ---
