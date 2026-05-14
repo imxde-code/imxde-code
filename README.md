@@ -8,7 +8,8 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Profile-212C42?style=for-the-badge&logo=tryhackme&logoColor=white)](https://tryhackme.com)
-[![Email](https://img.shields.io/badge/Email-Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:imad@example.com)
+[![HackTheBox](https://img.shields.io/badge/HackTheBox-Profile-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black)](https://hackthebox.com)
+[![Email](https://img.shields.io/badge/Hire%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:imad@example.com)
 
 </div>
 
@@ -16,12 +17,15 @@
 
 ## About me
 
-I specialise in **red team operations** and **offensive security** — simulating real-world adversaries to find what automated scanners miss. My work spans network penetration testing, web application security, and adversary simulation.
+I specialise in **red team operations** and **offensive security** — simulating real-world adversaries to uncover what automated scanners miss. My work spans network penetration testing, web application security, Active Directory attacks, and adversary simulation.
 
-- 🎯 Currently focused on **red team tradecraft** and **adversary simulation**
-- 📖 Studying for **OSCP / CEH** (or whichever certs you have/pursuing)
-- 🛠️ I build security tooling on the side — mostly TypeScript and Python
-- 🌍 Based in Malaysia
+```
+🎯  Red Team Ops       →  Adversary simulation, C2 frameworks, lateral movement
+🌐  Web App Security   →  OWASP Top 10, API testing, logic flaws
+🏢  Active Directory   →  Kerberoasting, AS-REP roasting, BloodHound, DCSync
+🛠️  Security Tooling   →  Building custom tools in Python & TypeScript
+📍  Based in Malaysia
+```
 
 ---
 
@@ -30,11 +34,13 @@ I specialise in **red team operations** and **offensive security** — simulatin
 **Offensive Security**
 
 ![Kali Linux](https://img.shields.io/badge/Kali_Linux-557C94?style=flat-square&logo=kalilinux&logoColor=white)
-![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logo=metasploit&logoColor=white)
+![Metasploit](https://img.shields.io/badge/Metasploit-2596CD?style=flat-square&logoColor=white)
 ![Burp Suite](https://img.shields.io/badge/Burp_Suite-FF6633?style=flat-square&logo=portswigger&logoColor=white)
 ![Nmap](https://img.shields.io/badge/Nmap-4A90D9?style=flat-square&logoColor=white)
 ![Wireshark](https://img.shields.io/badge/Wireshark-1679A7?style=flat-square&logo=wireshark&logoColor=white)
-![Cobalt Strike](https://img.shields.io/badge/Cobalt_Strike-E10000?style=flat-square&logoColor=white)
+![BloodHound](https://img.shields.io/badge/BloodHound-E31337?style=flat-square&logoColor=white)
+![Impacket](https://img.shields.io/badge/Impacket-black?style=flat-square&logoColor=white)
+![CrackMapExec](https://img.shields.io/badge/CrackMapExec-grey?style=flat-square&logoColor=white)
 
 **Languages**
 
@@ -43,12 +49,12 @@ I specialise in **red team operations** and **offensive security** — simulatin
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white)
 
-**Concepts**
+**Frameworks & Concepts**
 
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-E31337?style=flat-square&logoColor=white)
 ![OWASP](https://img.shields.io/badge/OWASP_Top_10-000000?style=flat-square&logo=owasp&logoColor=white)
-![Social Engineering](https://img.shields.io/badge/Social_Engineering-7B2FBE?style=flat-square&logoColor=white)
-![Threat Modelling](https://img.shields.io/badge/Threat_Modelling-FF6B35?style=flat-square&logoColor=white)
+![PTES](https://img.shields.io/badge/PTES-4A90D9?style=flat-square&logoColor=white)
+![NIST](https://img.shields.io/badge/NIST_SP_800--61-grey?style=flat-square&logoColor=white)
 
 ---
 
@@ -56,7 +62,10 @@ I specialise in **red team operations** and **offensive security** — simulatin
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [**scantodo**](https://github.com/imxde-code/scantodo) | CLI tool to scan codebases for TODO/FIXME/HACK comments — works in CI pipelines | TypeScript |
+| [**ghostscan**](https://github.com/imxde-code/ghostscan) | Recon CLI for red teamers — subdomain enumeration, HTTP security header analysis, port scanning | Python |
+| [**red-team-cheatsheets**](https://github.com/imxde-code/red-team-cheatsheets) | Practical command references — enumeration, privesc, Active Directory, payloads | Markdown |
+| [**ctf-writeups**](https://github.com/imxde-code/ctf-writeups) | HackTheBox, TryHackMe, and CTF competition writeups with full methodology | Markdown |
+| [**scantodo**](https://github.com/imxde-code/scantodo) | CLI tool to surface TODO/FIXME/HACK comments in codebases — CI-ready | TypeScript |
 
 ---
 
@@ -64,8 +73,8 @@ I specialise in **red team operations** and **offensive security** — simulatin
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=imxde-code&show_icons=true&theme=dark&hide_border=true&count_private=true" height="160" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imxde-code&layout=compact&theme=dark&hide_border=true" height="160" />
+<img src="https://github-readme-stats.vercel.app/api?username=imxde-code&show_icons=true&theme=dark&hide_border=true&count_private=true&include_all_commits=true" height="165" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=imxde-code&layout=compact&theme=dark&hide_border=true&langs_count=6" height="165" />
 
 </div>
 
@@ -75,13 +84,28 @@ I specialise in **red team operations** and **offensive security** — simulatin
 
 </div>
 
+<div align="center">
+
+[![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=imxde-code&theme=darkhub&no-frame=true&margin-w=8&column=6)](https://github.com/imxde-code)
+
+</div>
+
+---
+
+## Activity
+
+[![Imad's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=imxde-code&theme=react-dark&hide_border=true&area=true)](https://github.com/imxde-code)
+
 ---
 
 ## What I'm Working On
 
-- 🔴 Building a red team toolkit for internal network lateral movement
-- 📝 Writing CTF writeups and security research notes
-- 🛡️ Documenting incident response playbooks for common attack scenarios
+```
+🔴  Building ghostscan — a recon toolkit for red team engagements
+📝  Documenting CTF writeups and attack methodology
+📖  Deepening Active Directory attack and defence knowledge
+🎯  Grinding HackTheBox and TryHackMe
+```
 
 ---
 
